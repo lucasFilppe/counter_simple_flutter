@@ -1,5 +1,5 @@
-import 'package:counter_bloc_simple/bloc/conter_state.dart';
-import 'package:counter_bloc_simple/bloc/counter_event.dart';
+import 'package:counter_bloc_simple/features/counter/bloc/conter_state.dart';
+import 'package:counter_bloc_simple/features/counter/bloc/counter_event.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 /*O trabalho do BLoC é muito simples: ele recebe Eventos, processa esses 
