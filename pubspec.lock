@@ -114,10 +114,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_modular
-      sha256: "04b924a79e17ec897aa40886a46f27954ee0194e4601a006bdba3cb2be65e180"
+      sha256: "33a63d9fe61429d12b3dfa04795ed890f17d179d3d38e988ba7969651fcd5586"
       url: "https://pub.dev"
     source: hosted
-    version: "7.1.0"
+    version: "6.4.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -184,6 +184,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
+  modular_core:
+    dependency: transitive
+    description:
+      name: modular_core
+      sha256: "1db0420a0dfb8a2c6dca846e7cbaa4ffeb778e247916dbcb27fb25aa566e5436"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.4.1"
   nested:
     dependency: transitive
     description:
@@ -208,6 +216,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.5+1"
+  result_dart:
+    dependency: transitive
+    description:
+      name: result_dart
+      sha256: "80096f0928e276c024e53cf1bb2aaffd5a94623dac8fdfa5cb3529e82b51eb3c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -293,14 +309,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "15.2.0"
-  web:
-    dependency: transitive
-    description:
-      name: web
-      sha256: "868d88a33d8a87b18ffc05f9f030ba328ffefba92d6c127917a2ba740f9cfe4a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.1"
 sdks:
   dart: ">=3.12.1 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"
